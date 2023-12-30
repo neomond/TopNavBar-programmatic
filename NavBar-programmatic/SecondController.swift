@@ -11,8 +11,12 @@ class SecondController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .systemPurple
+        
+        self.navigationItem.title = "Second Controller"
+        
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationItem.largeTitleDisplayMode = .always
     }
     
 
